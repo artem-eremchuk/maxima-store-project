@@ -1,0 +1,73 @@
+@import './../../styles/variables.scss';
+
+.product {
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 100px 0;
+  }
+
+  &__info {
+    flex: 0 0 60%;
+    align-self: flex-start;
+    padding-right: 50px;
+  }
+
+  &__img {
+    flex: 0 0 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__title {
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0 0 30px;
+  }
+
+  &__description {
+    font-size: 24px;
+    font-weight: 400;  
+    margin: 0 0 30px;
+    text-align: justify;
+  }
+
+  &__price {
+    font-size: 50px;
+    font-weight: 700;
+    color: $primary;
+    margin-bottom: 30px;
+  }
+
+  &__image{
+    width: 80%;
+    bottom: 6px;
+  }
+
+  &__btns {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  &__btn {
+    height: 60px;
+    width: 200px;
+    background-color: $primary;
+    color: $primary-light;
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+    padding: 0;
+    margin: 0;
+    border-radius: 6px;
+    cursor: pointer;
+
+    &:first-child {
+      margin-right: 20px;
+    }
+  }
+}

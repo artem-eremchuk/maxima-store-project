@@ -1,0 +1,48 @@
+@import './../../styles/variables.scss';
+
+.wrapper {
+  padding: 85px 0 194px;
+  background-color: $primary-light;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: 700;
+  padding: 0 112px;
+  margin: 0 0 115px;
+}
+
+.catalog {
+  &__block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $primary-light;
+    width: 100%;
+  }
+
+  &__elements {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.element {
+  &__wrapper {
+    margin: 0 51px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  &__img {
+    background-color: #F3F2F3;
+    padding: 46px;
+  }
+
+  &__title {
+    font-size: 33px;
+    font-weight: 600;
+    margin: 33px 0 0;
+  }
+}

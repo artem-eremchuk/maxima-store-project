@@ -1,0 +1,26 @@
+@import './../../styles/variables.scss';
+
+.separator {
+  &__line {
+    position: relative;
+    height: 0;
+    width: 100%;
+    border: 1.5 solid $primary;
+  }
+
+  &__text {
+    position: absolute;
+    height: 56px;
+    width: 44.4791vw;
+    border: 3px solid $primary;
+    left: 50%;
+    transform: translate(calc(-44.4791vw / 2), -28px);
+    background-color: $primary-light;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+    color: $primary;
+    line-height: 50px;
+  }
+}

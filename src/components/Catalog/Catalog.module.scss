@@ -1,0 +1,22 @@
+.catalog {
+  padding: 0 142px;
+
+  &__wrapper {
+    background-color: #F3F2F3;
+    padding-top: 150px;
+  }
+
+  &__header {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Gilroy-Bold';
+    margin: 0 0 18px 0;
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+    padding: 0 124px;
+    flex-wrap: wrap;
+  } 
+}

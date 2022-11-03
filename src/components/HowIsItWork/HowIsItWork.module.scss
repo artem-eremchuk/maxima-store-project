@@ -1,0 +1,70 @@
+@import './../../styles/variables.scss';
+
+.wrapper {
+  padding: 103px 0 139px;
+  background-color: #F3F2F3;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: 700;
+  padding: 0 235px;
+}
+
+.block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  &:nth-child(even){
+    flex-direction: row-reverse;
+    text-align: end;
+  }
+  
+  &:nth-child(odd) > &__info {
+    flex-direction: row;
+    text-align: end;
+  }
+
+  &:nth-child(even) > &__info {
+    flex-direction: row-reverse;
+    text-align: start;
+    padding-right: 125px;
+  }
+    
+    &__info {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: $primary-light;
+      padding: 25px 92px;
+      align-self: end;
+      margin-bottom: 32px;
+      
+      &_text {
+      flex: 0 0 67%;
+    }
+
+    &_title {
+      font-size: 37px;
+      font-weight: 600;
+      color: $primary;
+      margin: 0 0 37px;
+    }
+    
+    &_description {
+      margin: 0;
+      font-size: 30px;
+      font-weight: 400;
+      color: $primary;
+    }
+  }
+
+  &__img {
+    flex: 0 0 50%;
+    padding: 0 45px;
+    align-self: end;
+  }
+}

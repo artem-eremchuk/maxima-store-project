@@ -1,0 +1,23 @@
+@import './../../styles/variables.scss';
+
+.filter {
+  &__wrapper {
+    padding: 0 142px 45px;
+  }
+
+  &__button {
+    border: none;
+    border-bottom: 3px solid transparent;
+    font-size: 30px;
+    font-weight: 500;
+    margin-right: 70px;
+    padding: 0;
+    color: $primary;
+    cursor: pointer;
+
+    &_active {
+      @extend .filter__button;
+      border-bottom: 3px solid $primary;
+    }
+  }
+}

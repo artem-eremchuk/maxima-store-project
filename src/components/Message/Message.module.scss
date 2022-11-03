@@ -1,0 +1,18 @@
+@import '../../styles/variables.scss';
+@mixin base() {
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  color: $primary-light;
+  border-radius: 10px;
+}
+
+.succes {
+  @include base();
+  background: $success-color;
+}
+
+.error {
+  @include base();
+  background: $error-color;
+}

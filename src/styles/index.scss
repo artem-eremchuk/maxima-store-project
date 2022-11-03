@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'Gilroy-Regular';
+  src: local('Gilroy-Regular'), url('../assets/fonts//Gilroy-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Gilroy-Medium';
+  src: local('Gilroy-Medium'), url('../assets/fonts/Gilroy-Medium.ttf') format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Gilroy-Semibold';
+  src: local('Gilroy-Semibold'), url('../assets/fonts/Gilroy-Semibold.ttf') format('truetype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Gilroy-Bold';
+  src: local('Gilroy-Semibold'), url('../assets/fonts/Gilroy-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Gilroy-Regular', sans-serif;
+}
+
+
+.container {
+  max-width: 1736px;
+  margin: 0 auto;
+}
+
+.slick-slide > div {
+  margin: 1px;
+}
+
+.slick-list {
+  margin: -1px;
+}
+
+.slick-prev:before {
+  display: none;
+}
+
+.slick-next:before {
+  display: none;
+}

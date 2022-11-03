@@ -1,0 +1,40 @@
+@import '../../../styles/variables.scss';
+@mixin base-input() {
+  width: 100%;
+  background: $primary-light;
+  border-radius: 10px;
+  padding: 11px 16px;
+  font-size: 14px;
+  outline: none;
+  border: none;
+  border: 1px solid rgba(35, 41, 214, 0.15);
+}
+
+.input {
+  &__field {
+    @include base-input();
+
+    &_error {
+      @include base-input();
+      border: 1px solid $error-color;
+
+      &::placeholder {
+        color: $error-color;
+      }
+    }
+  }
+  
+  &__label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: $primary-dark;
+  }
+}
+
+.error {
+  margin-top: 5px;
+  color: $error-color;
+}

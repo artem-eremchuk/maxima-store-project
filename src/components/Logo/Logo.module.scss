@@ -1,0 +1,22 @@
+@import '../../styles/variables.scss';
+
+.logo {
+  display: flex;
+  text-decoration: none;
+  color: $primary-light;
+
+  &__title {
+    margin: 0 0 0 8.82px;
+    font-size: 28px;
+    font-weight: 700;
+  }
+
+  &__disabled {
+    display: flex;
+    text-decoration: none;
+    color: $primary-light;
+    cursor: default;
+    pointer-events: none;        
+    text-decoration: none;
+  }
+}

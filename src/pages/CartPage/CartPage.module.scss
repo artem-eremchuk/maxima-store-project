@@ -1,0 +1,52 @@
+@import './../../styles/variables.scss';
+
+.cart {
+  &__wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: stretch;
+    padding: 100px 92px;
+  }
+
+  &__products {
+    flex: 0 0 70%;
+  }
+
+  &__total {
+    flex: 0 0 30%;
+    padding: 0 50px;
+    
+    &_title {
+      text-transform: uppercase;
+      font-size: 28px;
+      margin: 0 0 20px;
+    }
+
+    &_fields {
+      margin-bottom: 30px;
+    }
+
+    &_field {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+  }
+
+  &__sum {
+    &_title {
+      font-size: 24px;
+      text-transform: uppercase;
+      margin: 0 0 15px;
+    }
+
+    &_digit {
+      font-size: 28px;
+      font-weight: 700;
+    }
+  }
+}
+
+

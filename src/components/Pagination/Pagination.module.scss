@@ -1,0 +1,30 @@
+@import './../../styles/variables.scss';
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F3F2F3;
+  margin: 0;
+  padding: 0 0 100px;
+
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    list-style: none;
+    font-size: 28px;
+    background-color: $primary;
+    border-radius: 50%;
+    margin: 0 25px;
+    padding: 25px;
+    cursor: pointer;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: $primary-light;
+  }
+}

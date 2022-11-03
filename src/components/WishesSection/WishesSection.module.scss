@@ -1,0 +1,22 @@
+@import './../../styles/variables.scss';
+
+.wishes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F3F2F3;
+  padding: 54px 0 118px;
+
+  &__img{
+    width: 100%;
+    padding: 0 32px;
+  }
+
+  &__text{
+    margin: 0;
+    padding: 0 32px;
+    font-size: 40px;
+    font-weight: 700;
+    color: $primary;
+  }
+}

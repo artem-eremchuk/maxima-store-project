@@ -1,0 +1,13 @@
+@import '../../styles/variables.scss';
+
+.nav {
+  width: 574px;
+  display: flex;
+
+  &__link {
+    margin: 0 auto;
+    text-decoration: none;
+    color: $primary-light;
+    font-size: 24px;
+  }
+}

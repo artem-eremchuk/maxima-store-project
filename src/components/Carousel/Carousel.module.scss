@@ -1,0 +1,49 @@
+.carousel {
+  margin: 0 auto;
+  width: 82.2580%;
+  
+  &__wrapper {
+    height: 950px;
+    background-color: #ffffff;
+    border-bottom: 3px solid #4B267E;
+  }
+
+  &__title {
+    margin-bottom: 58px;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Gilroy-Bold';
+    padding: 0 18px;
+  }
+
+  @media (max-width: 1600px) {
+    &__wrapper {
+      height: 900px;
+    }
+  }
+
+  @media (max-width: 1440px) {
+    &__wrapper {
+      height: 850px;
+    }
+  }
+}
+
+// .arrow {
+//   &__img_left {
+//     padding-left: 28px;
+//   }
+
+//   &__img_right {
+//     padding-right: 28px;
+//   }
+// }
+
+.card {
+  text-align: center;
+  background-color: paleturquoise;
+  font-size: 25px;
+  height: 545px;
+  color: black;
+}
+
